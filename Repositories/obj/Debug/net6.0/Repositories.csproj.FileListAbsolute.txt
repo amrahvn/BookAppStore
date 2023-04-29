@@ -1,0 +1,15 @@
+C:\Users\LENOVA\source\repos\BookStore.App\Repositories\bin\Debug\net6.0\Repositories.deps.json
+C:\Users\LENOVA\source\repos\BookStore.App\Repositories\bin\Debug\net6.0\Repositories.dll
+C:\Users\LENOVA\source\repos\BookStore.App\Repositories\bin\Debug\net6.0\Repositories.pdb
+C:\Users\LENOVA\source\repos\BookStore.App\Repositories\bin\Debug\net6.0\BookStore.Core.dll
+C:\Users\LENOVA\source\repos\BookStore.App\Repositories\bin\Debug\net6.0\BookStore.Core.pdb
+C:\Users\LENOVA\source\repos\BookStore.App\Repositories\obj\Debug\net6.0\Repositories.csproj.AssemblyReference.cache
+C:\Users\LENOVA\source\repos\BookStore.App\Repositories\obj\Debug\net6.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVA\source\repos\BookStore.App\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfoInputs.cache
+C:\Users\LENOVA\source\repos\BookStore.App\Repositories\obj\Debug\net6.0\Repositories.AssemblyInfo.cs
+C:\Users\LENOVA\source\repos\BookStore.App\Repositories\obj\Debug\net6.0\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\LENOVA\source\repos\BookStore.App\Repositories\obj\Debug\net6.0\Repositories.csproj.CopyComplete
+C:\Users\LENOVA\source\repos\BookStore.App\Repositories\obj\Debug\net6.0\Repositories.dll
+C:\Users\LENOVA\source\repos\BookStore.App\Repositories\obj\Debug\net6.0\refint\Repositories.dll
+C:\Users\LENOVA\source\repos\BookStore.App\Repositories\obj\Debug\net6.0\Repositories.pdb
+C:\Users\LENOVA\source\repos\BookStore.App\Repositories\obj\Debug\net6.0\ref\Repositories.dll
