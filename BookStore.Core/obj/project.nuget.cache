@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g5WxUVw7BFCZ7gwRMGFQk/TwVj5uLrjnX//tTum6dGFQ98suR9BN8Gz30El9Vk8Qx7XhHjZaf6vwdn9Ru0gIbw==",
+  "dgSpecHash": "+pc+g05Y+xjtsqjuH7sEhIpPsNheYydIL78rrFm2RgfRARkjEqbwXMBGf58oe0LAihQQBrv+8saiK4fFs+c5hw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\BookStore.Core\\BookStore.Core.csproj",
+  "projectFilePath": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\BookStore.Core\\BookStore.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

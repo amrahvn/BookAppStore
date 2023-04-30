@@ -37,7 +37,7 @@ if (menuServices.IsAdmin)
 }
 else
 {
-    menuServices.ShowMenuUSer();
+    menuServices.ShowMenuUser();
 }
 
 

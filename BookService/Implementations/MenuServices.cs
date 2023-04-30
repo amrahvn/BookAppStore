@@ -43,9 +43,9 @@ namespace BookService.Implementations
 
         public async Task ShowMenuAdmin()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
 
-            string sentence = "Welcome to my BookApp";
+            string sentence = "Dear admin welcome to BookStore.App";
 
             foreach (var item in sentence)
             {
@@ -53,6 +53,9 @@ namespace BookService.Implementations
                 Console.Write(item);
             }
 
+            Console.ForegroundColor= ConsoleColor.DarkBlue;
+            Console.WriteLine();
+            Console.WriteLine("_______________________");
             Console.WriteLine("0.Close BookApp");
             Console.WriteLine("1.Create Author");
             Console.WriteLine("2.Show Author");
@@ -163,98 +166,49 @@ namespace BookService.Implementations
             
         }
 
-        public async Task ShowMenuUSer()
+        public async Task ShowMenuUser()
         {
-            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
+            string sentence = "Welcome to my BookStore.app";
 
-            string sentence = "Welcome to my BookApp";
-
-            foreach (var item in sentence)
+            foreach(var item in sentence)
             {
                 Thread.Sleep(100);
                 Console.Write(item);
             }
 
+
             Console.WriteLine("0.Close BookApp");
-            Console.WriteLine("1.Create Author");
-            Console.WriteLine("2.Show Author");
-            Console.WriteLine("3.Show Author by id");
-            Console.WriteLine("4.Show Author's books");
-            Console.WriteLine("5.Update Author");
-            Console.WriteLine("6.Delete Author");
-            Console.WriteLine("7.Create Book");
-            Console.WriteLine("8.Update Book");
-            Console.WriteLine("9.Get books by Author");
-            Console.WriteLine("10.Deleted book");
-            Console.WriteLine("11.Show All books");
-            Console.WriteLine("12.Buy Book");
+            Console.WriteLine("1.Show Author");
+            Console.WriteLine("2.Show Author by id");
+            Console.WriteLine("3.Show Author's books");
+            Console.WriteLine("4.Get books by Author");
+            Console.WriteLine("5.Show All books");
+           
+            string request = Console.ReadLine();
 
-            string Request = Console.ReadLine();
-
-
-            while (Request != "0")
+            while (request != "0")
             {
-                switch (Request)
+                switch(request)
                 {
                     case "1":
-                        Console.Clear();
-                        await CreateWritterAsync();
-                        break;
-
-                    case "2":
-                        Console.Clear();
                         await ShowAuthor();
                         break;
 
-                    case "3":
-                        Console.Clear();
+                        case "2":
                         await ShowAuthorbyId();
                         break;
 
-                    case "4":
-                        Console.Clear();
+                        case "3":
                         await ShowAuthorbooks();
-                        break;
+                        break; 
 
-                    case "5":
-                        Console.Clear();
-                        await UpdateAuthor();
-                        break;
-
-                    case "6":
-                        Console.Clear();
-                        await DeleteAuthor();
-                        break;
-
-                    case "7":
-                        Console.Clear();
-                        await CreatedBOoks();
-                        break;
-
-                    case "8":
-                        Console.Clear();
-                        await BookUpDate();
-                        break;
-
-                    case "9":
-                        Console.Clear();
+                    case "4":
                         await GetBookbyAuthor();
                         break;
 
-                    case "10":
-
-                        Console.Clear();
-                        await DeletedBook();
-                        break;
-
-                    case "11":
-                        Console.Clear();
+                        case "5":
                         await ShowAllBooks();
-                        break;
-
-                    case "12":
-                        Console.Clear();
-                        await BuyBook();
                         break;
 
                     default:
@@ -263,24 +217,14 @@ namespace BookService.Implementations
                         break;
 
                 }
-
-                Console.WriteLine("make your choice");
                 Console.WriteLine("0.Close BookApp");
-                Console.WriteLine("1.Create Author");
-                Console.WriteLine("2.Show Author");
-                Console.WriteLine("3.Show Author by id");
-                Console.WriteLine("4.Show Author's books");
-                Console.WriteLine("5.Update Author");
-                Console.WriteLine("6.Delete Author");
-                Console.WriteLine("7.Create Book");
-                Console.WriteLine("8.Update Book");
-                Console.WriteLine("9.Get books by Author");
-                Console.WriteLine("10.Deleted book");
-                Console.WriteLine("11.Show All books");
-                Console.WriteLine("12.Buy Book");
+                Console.WriteLine("1.Show Author");
+                Console.WriteLine("2.Show Author by id");
+                Console.WriteLine("3.Show Author's books");
+                Console.WriteLine("4.Get books by Author");
+                Console.WriteLine("5.Show All books");
 
-                Request = Console.ReadLine();
-
+                 request = Console.ReadLine();
             }
         }
 
@@ -517,24 +461,11 @@ namespace BookService.Implementations
             Console.WriteLine("Add Book id");
                 int.TryParse(Console.ReadLine(), out int bookid);
 
-            if(bookid != null)
-            {
-                Console.ForegroundColor = ConsoleColor.Green;
-                Console.WriteLine("Was sold");
-            }
-            else
-            {
-                Console.ForegroundColor=ConsoleColor.Red;
-                Console.WriteLine("The book is not available");
-
-
-            }
-                
+            string message=await bookService.BuyBook(bookid, authorid);
             
-
-
-
-
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(message);
+                
 
         }
     }

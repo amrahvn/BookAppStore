@@ -133,21 +133,25 @@ namespace BookService.Implementations
 
             BookWriter bookWriter = await _repository.GetAsync(writ => writ.Id == WritId);
 
-            if (bookWriter == null)          
-                return null;
+            if (bookWriter == null)
+            {
+                Console.WriteLine("Author not found");
+            }        
+                
 
             Book book = bookWriter.books.FirstOrDefault(Book=>Book.Id==BookId);
 
-            if (book == null)          
-                return "There is no book with this name in stock";
-            
+            if (book==null)
+            {
+                Console.WriteLine("Book movcud deil");
+            }     
+                
+            bookWriter.books.Remove(book);
                Console.ForegroundColor = ConsoleColor.Blue;
-            return "was sold";
+            return "Satildi";
 
 
         }
-
-
 
         private async Task <string> ValidBooks(string name,double Price,double discountPrice)
         {
@@ -162,11 +166,6 @@ namespace BookService.Implementations
 
 
         }
-
-
-
-
-
 
     }
 }

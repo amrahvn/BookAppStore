@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\BookStore.App\\BookStore.App.csproj": {}
+    "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\BookStore.App\\BookStore.App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\BookService\\BookService.csproj": {
+    "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\BookService\\BookService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\BookService\\BookService.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\BookService\\BookService.csproj",
         "projectName": "BookService",
-        "projectPath": "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\BookService\\BookService.csproj",
+        "projectPath": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\BookService\\BookService.csproj",
         "packagesPath": "C:\\Users\\LENOVA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\BookService\\obj\\",
+        "outputPath": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\BookService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\Repositories\\Repositories.csproj": {
-                "projectPath": "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\Repositories\\Repositories.csproj"
+              "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\Repositories\\Repositories.csproj": {
+                "projectPath": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\Repositories\\Repositories.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\BookStore.App\\BookStore.App.csproj": {
+    "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\BookStore.App\\BookStore.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\BookStore.App\\BookStore.App.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\BookStore.App\\BookStore.App.csproj",
         "projectName": "BookStore.App",
-        "projectPath": "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\BookStore.App\\BookStore.App.csproj",
+        "projectPath": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\BookStore.App\\BookStore.App.csproj",
         "packagesPath": "C:\\Users\\LENOVA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\BookStore.App\\obj\\",
+        "outputPath": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\BookStore.App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -87,8 +87,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\BookService\\BookService.csproj": {
-                "projectPath": "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\BookService\\BookService.csproj"
+              "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\BookService\\BookService.csproj": {
+                "projectPath": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\BookService\\BookService.csproj"
               }
             }
           }
@@ -122,14 +122,14 @@
         }
       }
     },
-    "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\BookStore.Core\\BookStore.Core.csproj": {
+    "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\BookStore.Core\\BookStore.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\BookStore.Core\\BookStore.Core.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\BookStore.Core\\BookStore.Core.csproj",
         "projectName": "BookStore.Core",
-        "projectPath": "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\BookStore.Core\\BookStore.Core.csproj",
+        "projectPath": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\BookStore.Core\\BookStore.Core.csproj",
         "packagesPath": "C:\\Users\\LENOVA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\BookStore.Core\\obj\\",
+        "outputPath": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\BookStore.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -177,14 +177,14 @@
         }
       }
     },
-    "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\Repositories\\Repositories.csproj": {
+    "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\Repositories\\Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\Repositories\\Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\Repositories\\Repositories.csproj",
         "projectName": "Repositories",
-        "projectPath": "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\Repositories\\Repositories.csproj",
+        "projectPath": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\Repositories\\Repositories.csproj",
         "packagesPath": "C:\\Users\\LENOVA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\Repositories\\obj\\",
+        "outputPath": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -201,8 +201,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\BookStore.Core\\BookStore.Core.csproj": {
-                "projectPath": "C:\\Users\\LENOVA\\source\\repos\\BookStore.App\\BookStore.Core\\BookStore.Core.csproj"
+              "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\BookStore.Core\\BookStore.Core.csproj": {
+                "projectPath": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStore\\BookStore.Core\\BookStore.Core.csproj"
               }
             }
           }

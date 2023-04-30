@@ -25,6 +25,7 @@ namespace BookStore.Core.Models
 
         public override string ToString()
         {
+            Console.ForegroundColor = ConsoleColor.DarkCyan;
             return $"Name{Name},Surname{Surname},Age{Age},CreateDate{CreatedTime},UpDate{UpdatedTime}";
         }
     }
