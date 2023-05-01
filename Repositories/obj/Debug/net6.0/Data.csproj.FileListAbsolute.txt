@@ -1,0 +1,15 @@
+C:\Users\LENOVA\Source\Repos\BookAppStorejn\Repositories\bin\Debug\net6.0\Data.deps.json
+C:\Users\LENOVA\Source\Repos\BookAppStorejn\Repositories\bin\Debug\net6.0\Data.dll
+C:\Users\LENOVA\Source\Repos\BookAppStorejn\Repositories\bin\Debug\net6.0\Data.pdb
+C:\Users\LENOVA\Source\Repos\BookAppStorejn\Repositories\bin\Debug\net6.0\BookStore.Core.dll
+C:\Users\LENOVA\Source\Repos\BookAppStorejn\Repositories\bin\Debug\net6.0\BookStore.Core.pdb
+C:\Users\LENOVA\Source\Repos\BookAppStorejn\Repositories\obj\Debug\net6.0\Data.csproj.AssemblyReference.cache
+C:\Users\LENOVA\Source\Repos\BookAppStorejn\Repositories\obj\Debug\net6.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVA\Source\Repos\BookAppStorejn\Repositories\obj\Debug\net6.0\Data.AssemblyInfoInputs.cache
+C:\Users\LENOVA\Source\Repos\BookAppStorejn\Repositories\obj\Debug\net6.0\Data.AssemblyInfo.cs
+C:\Users\LENOVA\Source\Repos\BookAppStorejn\Repositories\obj\Debug\net6.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\LENOVA\Source\Repos\BookAppStorejn\Repositories\obj\Debug\net6.0\Data.csproj.CopyComplete
+C:\Users\LENOVA\Source\Repos\BookAppStorejn\Repositories\obj\Debug\net6.0\Data.dll
+C:\Users\LENOVA\Source\Repos\BookAppStorejn\Repositories\obj\Debug\net6.0\refint\Data.dll
+C:\Users\LENOVA\Source\Repos\BookAppStorejn\Repositories\obj\Debug\net6.0\Data.pdb
+C:\Users\LENOVA\Source\Repos\BookAppStorejn\Repositories\obj\Debug\net6.0\ref\Data.dll

@@ -16,10 +16,9 @@ namespace BookService.Implementations
 
         public async Task<string> CreateAsync(int id, string name, double price, double discountPrice, BookCategory category,bool bookInStock)
         {
-
-            BookWriter writter = await _repository.GetAsync(writter=>writter.Id==id);
             Console.ForegroundColor = ConsoleColor.Red;
-
+            BookWriter writter = await _repository.GetAsync(writter=>writter.Id==id);
+         
             if (writter==null)
             {
                 return "book writer not found";

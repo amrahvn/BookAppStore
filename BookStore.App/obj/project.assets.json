@@ -6,7 +6,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Repositories": "1.0.0"
+          "Data": "1.0.0"
         },
         "compile": {
           "bin/placeholder/BookService.dll": {}
@@ -25,17 +25,17 @@
           "bin/placeholder/BookStore.Core.dll": {}
         }
       },
-      "Repositories/1.0.0": {
+      "Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "BookStore.Core": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Repositories.dll": {}
+          "bin/placeholder/Data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Repositories.dll": {}
+          "bin/placeholder/Data.dll": {}
         }
       }
     }
@@ -51,10 +51,10 @@
       "path": "../BookStore.Core/BookStore.Core.csproj",
       "msbuildProject": "../BookStore.Core/BookStore.Core.csproj"
     },
-    "Repositories/1.0.0": {
+    "Data/1.0.0": {
       "type": "project",
-      "path": "../Repositories/Repositories.csproj",
-      "msbuildProject": "../Repositories/Repositories.csproj"
+      "path": "../Repositories/Data.csproj",
+      "msbuildProject": "../Repositories/Data.csproj"
     }
   },
   "projectFileDependencyGroups": {

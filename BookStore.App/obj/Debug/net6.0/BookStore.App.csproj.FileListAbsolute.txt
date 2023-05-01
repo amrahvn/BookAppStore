@@ -71,10 +71,8 @@ C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookStore.App\bin\Debug\net6.0\BookS
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookStore.App\bin\Debug\net6.0\BookStore.App.pdb
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookStore.App\bin\Debug\net6.0\BookService.dll
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookStore.App\bin\Debug\net6.0\BookStore.Core.dll
-C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookStore.App\bin\Debug\net6.0\Repositories.dll
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookStore.App\bin\Debug\net6.0\BookService.pdb
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookStore.App\bin\Debug\net6.0\BookStore.Core.pdb
-C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookStore.App\bin\Debug\net6.0\Repositories.pdb
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookStore.App\obj\Debug\net6.0\BookStore.App.csproj.AssemblyReference.cache
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookStore.App\obj\Debug\net6.0\BookStore.App.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookStore.App\obj\Debug\net6.0\BookStore.App.AssemblyInfoInputs.cache
@@ -86,3 +84,5 @@ C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookStore.App\obj\Debug\net6.0\refin
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookStore.App\obj\Debug\net6.0\BookStore.App.pdb
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookStore.App\obj\Debug\net6.0\BookStore.App.genruntimeconfig.cache
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookStore.App\obj\Debug\net6.0\ref\BookStore.App.dll
+C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookStore.App\bin\Debug\net6.0\Data.dll
+C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookStore.App\bin\Debug\net6.0\Data.pdb

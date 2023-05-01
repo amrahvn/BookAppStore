@@ -32,9 +32,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStorejn\\Repositories\\Repositories.csproj",
-      "projectName": "Repositories",
-      "projectPath": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStorejn\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStorejn\\Repositories\\Data.csproj",
+      "projectName": "Data",
+      "projectPath": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStorejn\\Repositories\\Data.csproj",
       "packagesPath": "C:\\Users\\LENOVA\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\LENOVA\\Source\\Repos\\BookAppStorejn\\Repositories\\obj\\",
       "projectStyle": "PackageReference",

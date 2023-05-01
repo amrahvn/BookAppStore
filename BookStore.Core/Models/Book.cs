@@ -44,3 +44,4 @@ namespace BookStore.Core.Models
         }
     }
 }
+

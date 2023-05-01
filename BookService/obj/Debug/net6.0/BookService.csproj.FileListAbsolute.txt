@@ -53,8 +53,6 @@ C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookService\bin\Debug\net6.0\BookSer
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookService\bin\Debug\net6.0\BookService.dll
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookService\bin\Debug\net6.0\BookService.pdb
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookService\bin\Debug\net6.0\BookStore.Core.dll
-C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookService\bin\Debug\net6.0\Repositories.dll
-C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookService\bin\Debug\net6.0\Repositories.pdb
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookService\bin\Debug\net6.0\BookStore.Core.pdb
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookService\obj\Debug\net6.0\BookService.csproj.AssemblyReference.cache
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookService\obj\Debug\net6.0\BookService.GeneratedMSBuildEditorConfig.editorconfig
@@ -66,3 +64,5 @@ C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookService\obj\Debug\net6.0\BookSer
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookService\obj\Debug\net6.0\refint\BookService.dll
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookService\obj\Debug\net6.0\BookService.pdb
 C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookService\obj\Debug\net6.0\ref\BookService.dll
+C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookService\bin\Debug\net6.0\Data.dll
+C:\Users\LENOVA\Source\Repos\BookAppStorejn\BookService\bin\Debug\net6.0\Data.pdb
