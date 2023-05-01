@@ -134,21 +134,21 @@ namespace BookService.Implementations
             BookWriter bookWriter = await _repository.GetAsync(writ => writ.Id == WritId);
 
             if (bookWriter == null)
-            {
-                Console.WriteLine("Author not found");
-            }        
+
+                return "Author not found";
+               
                 
 
             Book book = bookWriter.books.FirstOrDefault(Book=>Book.Id==BookId);
 
             if (book==null)
-            {
-                Console.WriteLine("Book movcud deil");
-            }     
+             
+                return "Book not Found";
+                  
                 
             bookWriter.books.Remove(book);
                Console.ForegroundColor = ConsoleColor.Blue;
-            return "Satildi";
+            return "Was sold";
 
 
         }

@@ -20,10 +20,12 @@ namespace BookService.Implementations
         private BookServices bookService = new BookServices();
 
         public async Task<bool> Login()
-        {
+        {   Console.ForegroundColor= ConsoleColor.DarkBlue;
             Console.WriteLine("Add username");
             string username=Console.ReadLine();
-
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor= ConsoleColor.DarkBlue;
             Console.WriteLine("Add pasword");
             string password=Console.ReadLine();
 
@@ -43,10 +45,10 @@ namespace BookService.Implementations
 
         public async Task ShowMenuAdmin()
         {
-            Console.ForegroundColor = ConsoleColor.DarkCyan;
-
+            
+            Console.ForegroundColor=ConsoleColor.Green;
             string sentence = "Dear admin welcome to BookStore.App";
-
+            
             foreach (var item in sentence)
             {
                 Thread.Sleep(100);
@@ -57,17 +59,53 @@ namespace BookService.Implementations
             Console.WriteLine();
             Console.WriteLine("_______________________");
             Console.WriteLine("0.Close BookApp");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("1.Create Author");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("2.Show Author");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("3.Show Author by id");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("4.Show Author's books");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("5.Update Author");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("6.Delete Author");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("7.Create Book");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("8.Update Book");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("9.Get books by Author");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("10.Deleted book");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("11.Show All books");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("12.Buy Book");
 
             string Request = Console.ReadLine();
@@ -146,18 +184,57 @@ namespace BookService.Implementations
                 }
 
                 Console.WriteLine("make your choice");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("____________");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("0.Close BookApp");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("____________");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("1.Create Author");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("____________");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("2.Show Author");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("____________");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("3.Show Author by id");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("____________");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("4.Show Author's books");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("____________");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("5.Update Author");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("____________");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("6.Delete Author");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("____________");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("7.Create Book");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("____________");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("8.Update Book");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("____________");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("9.Get books by Author");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("____________");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("10.Deleted book");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("____________");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("11.Show All books");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("____________");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("12.Buy Book");
 
                  Request = Console.ReadLine();
@@ -176,13 +253,29 @@ namespace BookService.Implementations
                 Thread.Sleep(100);
                 Console.Write(item);
             }
-
+           
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
             Console.WriteLine("0.Close BookApp");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("1.Show Author");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("2.Show Author by id");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("3.Show Author's books");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("4.Get books by Author");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("5.Show All books");
            
             string request = Console.ReadLine();
@@ -218,10 +311,25 @@ namespace BookService.Implementations
 
                 }
                 Console.WriteLine("0.Close BookApp");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("____________");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("1.Show Author");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("____________");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("2.Show Author by id");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("____________");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("3.Show Author's books");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("____________");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("4.Get books by Author");
+                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.WriteLine("____________");
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 Console.WriteLine("5.Show All books");
 
                  request = Console.ReadLine();
@@ -234,10 +342,14 @@ namespace BookService.Implementations
 
             Console.WriteLine("Add Name");
             string name = Console.ReadLine();
-
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("Add Surname");
             string surname = Console.ReadLine();
-
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("Add Age");
             int.TryParse(Console.ReadLine(), out int age);
 
@@ -292,16 +404,27 @@ namespace BookService.Implementations
 
             Console.WriteLine("Add Author id");
             int.TryParse(Console.ReadLine(), out int id);
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
             Console.WriteLine("Add Author Name");
             string name=Console.ReadLine();
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
             Console.WriteLine("Add Author Surname");
             string surname=Console.ReadLine();
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
             Console.WriteLine("Add Author Age");
             int.TryParse(Console.ReadLine(), out int age);
-
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
             string message = await writterServices.UpDAteAsync(id, name, surname, age);
 
@@ -316,7 +439,11 @@ namespace BookService.Implementations
 
         private async Task DeleteAuthor()
         {
-            Console.ForegroundColor= ConsoleColor.Blue;
+         
+
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
             Console.WriteLine("Add Author id");
             int.TryParse(Console.ReadLine(), out int id);
@@ -330,19 +457,33 @@ namespace BookService.Implementations
 
         private async Task CreatedBOoks()
         {
-            Console.ForegroundColor =(ConsoleColor) ConsoleColor.Blue;
 
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("Add Author id");
             int.TryParse(Console.ReadLine(),out int id);
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
             Console.WriteLine("Add Book Name");
             string name=Console.ReadLine();
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
             Console.WriteLine("Add Price");
             int.TryParse(Console.ReadLine(), out int price);
-                
-                Console.WriteLine("Add Discount price");
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
+
+            Console.WriteLine("Add Discount price");
             int.TryParse(Console.ReadLine(), out int discount);
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
             BookCategory category;
 
@@ -380,18 +521,33 @@ namespace BookService.Implementations
         private async Task BookUpDate()
         {
             Console.ForegroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
             Console.WriteLine("Add Author id");
             int.TryParse(Console.ReadLine(), out int Authorid);
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
             Console.WriteLine("Add Book id");
-            int.TryParse(Console.ReadLine(),out int Bookid);    
+            int.TryParse(Console.ReadLine(),out int Bookid);
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
             Console.WriteLine("Add Name");
             string name = Console.ReadLine();
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
             Console.WriteLine("Add Price");
             int.TryParse(Console.ReadLine(), out int Price);
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
             Console.WriteLine("Add DisCountPrice");
             int.TryParse(Console.ReadLine(), out int DiscountPrice);
@@ -412,7 +568,9 @@ namespace BookService.Implementations
 
             Console.WriteLine("Add Author id");
             int.TryParse(Console.ReadLine(), out int authorid);
-
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
             Console.WriteLine("Add Book id");
                 int.TryParse(Console.ReadLine(), out int bookid);
 
@@ -431,6 +589,9 @@ namespace BookService.Implementations
             Console.ForegroundColor=ConsoleColor.Blue;
             Console.WriteLine("Add author id");
             int.TryParse(Console.ReadLine(), out int authorid);
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
             Console.WriteLine("Add Book id");
             int.TryParse (Console.ReadLine(), out int bookid);
@@ -457,6 +618,10 @@ namespace BookService.Implementations
 
             Console.WriteLine("Add Author id");
             int.TryParse(Console.ReadLine(),out int authorid);
+
+            Console.ForegroundColor = ConsoleColor.DarkGray;
+            Console.WriteLine("____________");
+            Console.ForegroundColor = ConsoleColor.DarkBlue;
 
             Console.WriteLine("Add Book id");
                 int.TryParse(Console.ReadLine(), out int bookid);

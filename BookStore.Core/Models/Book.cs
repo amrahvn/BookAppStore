@@ -9,7 +9,7 @@ namespace BookStore.Core.Models
         private  static int _id;  
         public double Price { get; set; }
         public double DiscountPrice { get; set; }
-     public BookCategory Category { get; set; }
+        public BookCategory Category { get; set; }
         public BookWriter Writer { get; set; }
 
         public Book(string name,double price,double discountPrice,BookCategory category,BookWriter writer)
@@ -30,12 +30,12 @@ namespace BookStore.Core.Models
         {
             if (DiscountPrice < Price)
             {
-                Console.ForegroundColor = ConsoleColor.DarkCyan;
-                return $"There is Discount Price:{" "}{Price-DiscountPrice} {" "}, Name:{Name},Price:{" "}{DiscountPrice}{" "},Category:{" "}{Category}{" "},Author:{" "}{Writer}{" "},DateTime:{" "}{CreatedTime}{" "},UpDate:{" "}{UpdatedTime}";
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
+                return $"There is Discount Price:{" "}{Price-DiscountPrice} {" "}, Name:{Name},Category:{" "}{Category}{" "},Author:{" "}{Writer}{" "},DateTime:{" "}{CreatedTime}{" "},UpDate:{" "}{UpdatedTime}";
             }
             else
             {
-                Console.ForegroundColor = ConsoleColor.DarkCyan;
+                Console.ForegroundColor = ConsoleColor.DarkBlue;
                 return $"Name:{" "}{Name}{" "},Price:{" "}{Price}{" "},Category:{" "}{Category}{" "},Author:{" "}{Writer}{" "},DateTime:{" "}{CreatedTime}{" "},UpDate:{" "}{UpdatedTime}";
             }
            
