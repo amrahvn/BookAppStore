@@ -33,13 +33,13 @@ namespace BookStore.Core.Models
             if (DiscountPrice < Price)
             {
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
-                return $"There is Discount Price:{" "}{Price-DiscountPrice} {" "}, Name:{Name},Category:{" "}{Category}{" "},Author:{" "}{Writer}{" "},DateTime:{" "}{CreatedTime}{" "},UpDate:{" "}{UpdatedTime}{" "},BookINStock:{" "}{BookInStock}";
+                return $"There is Discount Price:{" "}{Price-DiscountPrice} {" "}, Name:{Name},Category:{" "}{Category}{" "},DateTime:{" "}{CreatedTime}{" "},UpDate:{" "}{UpdatedTime}{" "},BookINStock:{" "}{BookInStock}";
             }
             else
             {
                 Console.ForegroundColor = ConsoleColor.DarkBlue;
-                return $"Name:{" "}{Name}{" "},Price:{" "}{Price}{" "},Category:{" "}{Category}{" "},Author:{" "}{Writer}{" "},BookINStock:{" "}{BookInStock},DateTime:{" "}{CreatedTime}{" "},UpDate:{" "}{UpdatedTime}";
-            }
+                return $"Name:{" "}{Name}{" "},Price:{" "}{Price}{" "},Category:{" "}{Category}{" "},BookINStock:{" "}{BookInStock},DateTime:{" "}{CreatedTime}{" "},UpDate:{" "}{UpdatedTime}";
+            } 
            
         }
     }
