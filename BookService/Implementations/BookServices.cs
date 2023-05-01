@@ -14,7 +14,7 @@ namespace BookService.Implementations
     {
        private readonly BookWriterRepository _repository= new BookWriterRepository();
 
-        public async Task<string> CreateAsync(int id, string name, double price, double discountPrice, BookCategory category)
+        public async Task<string> CreateAsync(int id, string name, double price, double discountPrice, BookCategory category,bool bookInStock)
         {
             Console.ForegroundColor = ConsoleColor.Red;
 
@@ -26,7 +26,7 @@ namespace BookService.Implementations
                 return await ValidBooks(name, price,discountPrice);
             }
 
-            Book book =new Book(name, price, discountPrice,category,writter);
+            Book book =new Book(name, price, discountPrice,category,writter,bookInStock);
 
             writter.books.Add(book);
 
@@ -130,31 +130,24 @@ namespace BookService.Implementations
 
         }
 
-        public async Task<string> BuyBook(int WritId, int BookId)
+        public async Task<string> BuyBookAsync(int WritId, int BookId, bool BookInStock)
         {
             Console.ForegroundColor = ConsoleColor.Red;
 
             BookWriter bookWriter = await _repository.GetAsync(writ => writ.Id == WritId);
-
             if (bookWriter == null)
-
                 return "Author not found";
-               
-                
 
-            Book book = bookWriter.books.FirstOrDefault(Book=>Book.Id==BookId);
+            Book book = bookWriter.books.FirstOrDefault(Book => Book.Id == BookId);
 
             if (book == null)
-            {
-                Console.ForegroundColor = ConsoleColor.Red;
-                return "There is no such book in stock";
-            }
+                return "Book not found";
 
-                
-            bookWriter.books.Remove(book);
-               Console.ForegroundColor = ConsoleColor.Blue;
-            return "Was sold";
+            if (book.BookInStock)
+                return "This book is not stock";
 
+
+            return "Succesfully sold";
 
         }
 
@@ -172,5 +165,6 @@ namespace BookService.Implementations
 
         }
 
+      
     }
 }

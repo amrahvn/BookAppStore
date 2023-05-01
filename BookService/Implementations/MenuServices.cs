@@ -480,6 +480,7 @@ namespace BookService.Implementations
 
             Console.WriteLine("Add Discount price");
             int.TryParse(Console.ReadLine(), out int discount);
+            bool.TryParse(Console.ReadLine(), out bool bookInStock);
             Console.ForegroundColor = ConsoleColor.DarkGray;
             Console.WriteLine("____________");
             Console.ForegroundColor = ConsoleColor.DarkBlue;
@@ -507,12 +508,12 @@ namespace BookService.Implementations
             }
             category = (BookCategory)categoryindex;
 
-            string message=await bookService.CreateAsync(id, name, price,discount,category);
+            
+
+            string message=await bookService.CreateAsync(id, name, price,discount,category,bookInStock);
 
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(message);
-
-
 
 
         }
@@ -625,7 +626,9 @@ namespace BookService.Implementations
             Console.WriteLine("Add Book id");
                 int.TryParse(Console.ReadLine(), out int bookid);
 
-            string message=await bookService.BuyBook(bookid, authorid);
+            bool.TryParse(Console.ReadLine(), out bool bookInStock);
+
+            string message = await bookService.BuyBookAsync(bookid, authorid,bookInStock);
             
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(message);

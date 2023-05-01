@@ -7,7 +7,7 @@ namespace BookService.Interfaces
 {
     public interface IbookService
     {
-        public Task<string> CreateAsync(int id, string name,double price,double discountPrice, BookCategory category);
+        public Task<string> CreateAsync(int id, string name,double price,double discountPrice, BookCategory category, bool bookInStock);
 
         public Task<string> DeleteAsync(int WritId, int BookId);
 
@@ -15,7 +15,7 @@ namespace BookService.Interfaces
 
         public Task<Book> GetAsync(int WritId, int BookId);
 
-        public Task<string> BuyBook(int WritId, int BookId);
+        public Task<string> BuyBookAsync(int WritId, int BookId,bool bookInStock);
 
         public Task GetAll();
     }
