@@ -632,8 +632,7 @@ namespace BookService.Implementations
             
             Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine(message);
-                
-
+ 
         }
     }
 }

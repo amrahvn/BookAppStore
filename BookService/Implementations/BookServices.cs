@@ -16,9 +16,14 @@ namespace BookService.Implementations
 
         public async Task<string> CreateAsync(int id, string name, double price, double discountPrice, BookCategory category,bool bookInStock)
         {
-            Console.ForegroundColor = ConsoleColor.Red;
 
             BookWriter writter = await _repository.GetAsync(writter=>writter.Id==id);
+            Console.ForegroundColor = ConsoleColor.Red;
+
+            if (writter==null)
+            {
+                return "book writer not found";
+            }
 
 
             if(await ValidBooks(name, price, discountPrice)!=null)
@@ -155,16 +160,16 @@ namespace BookService.Implementations
         {
             if (string.IsNullOrEmpty(name))
                 return "Add valid Name";
+
             if (Price < 0)
                 return "Add valid Price";
+
             if (discountPrice > Price || discountPrice < 0)
                 return "Add valid DisCount";
+            
 
             return null;
-
-
         }
-
       
     }
 }
