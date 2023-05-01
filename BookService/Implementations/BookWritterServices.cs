@@ -114,6 +114,8 @@ namespace BookService.Implementations
                 Console.WriteLine("Add valid Age");
             }
 
+            DateTime Update=DateTime.Now;
+
             BookWriter bookWriter=await _repository.GetAsync(X=>X.Id== id);
 
             if (bookWriter == null)
@@ -122,6 +124,7 @@ namespace BookService.Implementations
             bookWriter.Name = name;
             bookWriter.Surname = surname;
             bookWriter.Age = age;
+            bookWriter.UpdatedTime = Update;
 
             Console.ForegroundColor = ConsoleColor.Green;
 

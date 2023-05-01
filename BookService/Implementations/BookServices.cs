@@ -113,11 +113,14 @@ namespace BookService.Implementations
                 return await ValidBooks(name, price, discountPrice);
             }
 
+
+            DateTime Update=DateTime.Now;
             Book book = bookWriter.books.FirstOrDefault(book=>book.Id==BookId);
 
             book.Name = name;
             book.Price = price;
             book.DiscountPrice = discountPrice;
+            book.UpdatedTime = Update;
 
             Console.ForegroundColor = ConsoleColor.Green;
             return "Updated succesfully";
@@ -141,10 +144,12 @@ namespace BookService.Implementations
 
             Book book = bookWriter.books.FirstOrDefault(Book=>Book.Id==BookId);
 
-            if (book==null)
-             
-                return "Book not Found";
-                  
+            if (book == null)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                return "There is no such book in stock";
+            }
+
                 
             bookWriter.books.Remove(book);
                Console.ForegroundColor = ConsoleColor.Blue;

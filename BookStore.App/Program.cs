@@ -2,8 +2,9 @@
 using BookService.Implementations;
 
 MenuServices menuServices = new MenuServices();
-
+Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine("1.As Admin");
+Console.ForegroundColor = ConsoleColor.Green;
 Console.WriteLine("2.As User");
 
 string reques=Console.ReadLine();
